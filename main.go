@@ -5,6 +5,7 @@ import (
 	"runtime/debug"
 )
 
+// main function
 func main() {
 	info, ok := debug.ReadBuildInfo()
 	if !ok {
